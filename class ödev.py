@@ -66,13 +66,13 @@ class instructor:
         self.email = email
         self.totalStudents = 0
 
-prof1 = instructor('Berk', 'banbar@hacettepe.edu.tr')
-prof2 = instructor('Hayrettin', 'kral06@hacettepe.edu.tr')
+prof1 = instructor('Berk', 'b@hacettepe.edu.tr')
+prof2 = instructor('Ahmet', 'a@hacettepe.edu.tr')
 course1 = courses('GMT 104', 'Intro to Programming-II', 6, prof1)
-course2 = courses('GMT 112', 'Intro to Cevdet reyiz', 6,prof1)
-course3 = courses('GMT 342', 'bursadangelengolhaberi', 6,prof2)
-student1 = student(123, 'Ali', 35, email='ali@hacettepe.edu.tr', hobby='football')
-student2 = student(151, 'Alex', 30)
+course2 = courses('GMT 112', 'Intro to Geomatics', 6, prof1)
+course3 = courses('GMT 342', 'Math', 6,prof2)
+student1 = student(123, 'İrem', 35, email='irem@hacettepe.edu.tr', hobby='voleyball')
+student2 = student(151, 'Eren', 30)
 print(student1.__dict__)
 
 student1.takeCourse(course1)
